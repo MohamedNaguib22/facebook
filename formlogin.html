@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="valided">
+    <div class="form-login">
+        <div class="left">
+            <h1>
+                facebook
+            </h1>
+            <h4>
+                Connect with friends and the world <br> around you on Facebook
+            </h4>
+        </div>
+        <div class="right">
+            <div id="error"></div>
+            <form action="http://127.0.0.1:5500/index.html" onsubmit="return formValidate()">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="tel" name="phone" id="phone" placeholder="Phone number">
+                <input type="password" name="pass" id="password" placeholder="Password">
+                <input class="Log" type="submit" value="Log in">
+            <a href="#">
+                <h5>
+                    Forgot password?
+                </h5><hr>
+            </a>
+            <input type="submit" class="create" value="Create new account">
+            </form>
+           
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<script src="test.js"></script>
+</body>
+</html>

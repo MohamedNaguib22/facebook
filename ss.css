@@ -1,0 +1,316 @@
+/* form login */
+.valided{
+    background-color: #f8fafb;
+    height: 100vh;
+}
+section .form-login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+section .form-login .left h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #0c64d6;
+}
+section .form-login .left h4{
+    font-size: 37px;
+    font-weight: 590;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+section .form-login .right{
+    width: 550px;
+    height: 56%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+    margin-right: 150px;
+}
+section .form-login .right input{
+    width: 500px;
+    font-size: 17px;
+    padding: 18px;
+    margin: 40px 25px 0px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #ccc;
+}
+section .form-login .right .Log{
+    background-color: #1064d1;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+section .form-login .right h5{
+    text-align: center;
+    margin-top: 15px;
+    color: #1167d6;
+    font-weight: bold;
+    font-size: 16px;
+}
+section .form-login .right a{
+    text-decoration: none;
+}
+section .form-login .right hr{
+    color: #e9dcdc;
+    width: 90%;
+    margin-left: 25px;
+    margin-top:30px;
+}
+section .form-login .right .create{
+    background-color: #18b909;
+    color: #fff;
+    border: none;
+    width: 50%;
+    border-radius: 8px;
+    margin-left: 135px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Login Res */
+@media only screen and (min-width: 300px) and (max-width :567px) {
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    section .form-login .left h1{
+        font-size: 60px;
+        font-weight: bold;
+        color: #0c64d6;
+        margin-left: 95px;
+    }
+    section .form-login .left h4{
+        font-size: 26px;
+        font-weight: 590;
+        margin-top: 10px;
+        text-align: center;
+        margin: auto;
+    }
+    section .form-login .right{
+        width: 440px;
+        height: 62%;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+        margin-left: 150px;
+        margin-top: -90px;
+    }
+    section .form-login .right input{
+        width: 390px;
+        font-size: 17px;
+        padding: 18px;
+        margin: 40px 25px 0px;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid #ccc;
+    }
+    section .form-login .right .create{
+        background-color: #18b909;
+        color: #fff;
+        border: none;
+        width: 50%;
+        border-radius: 8px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 105px;
+    }
+
+}
+@media only screen and (min-width: 567px) and (max-width :768px) {
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    section .form-login .left h1{
+        font-size: 60px;
+        font-weight: bold;
+        color: #0c64d6;
+        margin-left: 95px;
+    }
+    section .form-login .left h4{
+        font-size: 26px;
+        font-weight: 590;
+        margin-top: 10px;
+        text-align: center;
+        margin: auto;
+    }
+    section .form-login .right{
+        width: 440px;
+        height: 62%;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+        margin-left: 150px;
+        margin-top: -90px;
+    }
+    section .form-login .right input{
+        width: 390px;
+        font-size: 17px;
+        padding: 18px;
+        margin: 40px 25px 0px;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid #ccc;
+    }
+    section .form-login .right .create{
+        background-color: #18b909;
+        color: #fff;
+        border: none;
+        width: 50%;
+        border-radius: 8px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 105px;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width :992px) {
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    section .form-login .left h1{
+        font-size: 75px;
+        font-weight: bold;
+        color: #0c64d6;
+        margin-left: 150px;
+    }
+    section .form-login .left h4{
+        font-size: 30px;
+        font-weight: 590;
+        text-align: center;
+    }
+    section .form-login .right{
+        width: 550px;
+        height: 57%;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+        margin-left: 220px;
+        margin-top: -90px;
+    }
+    section .form-login .right input{
+        width: 500px;
+        font-size: 17px;
+        padding: 18px;
+        margin: 40px 25px 0px;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid #ccc;
+    }
+    section .form-login .right .create{
+        background-color: #18b909;
+        color: #fff;
+        border: none;
+        width: 50%;
+        border-radius: 8px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 135px;
+    }
+
+}
+@media only screen and (min-width: 992px) and (max-width :1200px) {
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    section .form-login .left h1{
+        font-size: 70px;
+        font-weight: bold;
+        color: #0c64d6;
+        margin-left: 160px;
+    }
+    section .form-login .left h4{
+        font-size: 30px;
+        font-weight: 590;
+        text-align: center;
+    }
+    section .form-login .right{
+        width: 550px;
+        height: 57%;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+        margin-left: 220px;
+        margin-top: -90px;
+    }
+    section .form-login .right input{
+        width: 500px;
+        font-size: 17px;
+        padding: 18px;
+        margin: 40px 25px 0px;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid #ccc;
+    }
+    section .form-login .right .create{
+        background-color: #18b909;
+        color: #fff;
+        border: none;
+        width: 50%;
+        border-radius: 8px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 135px;
+    }
+
+}
+@media only screen and (min-width: 1200px) and (max-width :1400px) {
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    section .form-login .left h1{
+        font-size: 70px;
+        font-weight: bold;
+        color: #0c64d6;
+        margin-left: 160px;
+    }
+    section .form-login .left h4{
+        font-size: 30px;
+        font-weight: 590;
+        text-align: center;
+    }
+    section .form-login .right{
+        width: 550px;
+        height: 57%;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+        margin-left: 220px;
+        margin-top: -120px;
+    }
+    section .form-login .right input{
+        width: 500px;
+        font-size: 17px;
+        padding: 18px;
+        margin: 40px 25px 0px;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid #ccc;
+    }
+    section .form-login .right .create{
+        background-color: #18b909;
+        color: #fff;
+        border: none;
+        width: 50%;
+        border-radius: 8px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 135px;
+    }
+
+}
